@@ -5886,6 +5886,12 @@ K Voltage Regulator 5.0V 500mA Positive CMOS LDO Microchip
 F http://ww1.microchip.com/downloads/en/DeviceDoc/21373C.pdf
 $ENDCMP
 #
+$CMP TC2014-1.8V
+D 50/100/150mA CMOS LDO with Shutdown and Vref Bypass
+K low dropout
+F http://ww1.microchip.com/downloads/en/DeviceDoc/21662F.pdf
+$ENDCMP
+#
 $CMP TLV1117-15
 D 800mA Low-Dropout Linear Regulator, 1.5V fixed output, TO-220/TO-252/TO-263/SOT-223
 K linear regulator ldo fixed positive
